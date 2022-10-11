@@ -46,7 +46,7 @@ html {
   } 
 
     .names {
-        display: flex;
+    
         align-content: space-between;
         gap: 10px;
         gap: 10px 20px;
@@ -55,7 +55,7 @@ html {
         position:relative;
         width: 50%;
         height: 50%;
-        flex-direction: row-reverse;
+      
 
         flex-grow: 1;
         flex-shrink: 1;
@@ -71,7 +71,8 @@ html {
   }
 
   .names .folder {
-    position:relative;
+    display: flex;
+   flex-direction: column;
     width: 150px;
     height: 150px;
     background: aliceblue;
@@ -118,14 +119,44 @@ html {
 
   #Nicolas {
     position: relative
-    top: 200px;
-    left: 180px;
+   top: 800px;
+    bottom: 1000px; 
+    left: 500px;
+    right: 500px;
     width: 40px;
     height: 40px;
     background: black;
     border-radius: 50%;
   }
   
+
+  #Aparna {
+    position: relative
+   top: 500px;
+    bottom: 1200px; 
+    left: 800px;
+    right: 500px;
+    width: 40px;
+    height: 40px;
+    background: black;
+  
+  } 
+
+  #Kate {
+    position: relative
+   top: 300px;
+    bottom: 1350px; 
+    left: 350px;
+    right: 500px;
+    width: 40px;
+    height: 40px;
+    background: black;
+
+  } 
+
+
+
+
   /* hover state for #Nicolas */
   #Nicolas p:hover {
     background: green;
