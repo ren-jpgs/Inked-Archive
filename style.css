@@ -1,0 +1,151 @@
+html {
+    background: #000000;
+    color: beige;
+    font-size: 16px;
+    font-family: alegreya sans;
+  }
+  
+  body {
+    /* sets the width and centers it horizontally */
+    width: 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h1 {
+    background: rgb(0, 0, 0);
+    color: rgb(11, 11, 243);
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 24px;
+    padding-bottom: 0px;
+    font-size: 100px;
+    font-style: italic;
+    font-family: bombefont;
+  }
+
+  h2 {
+    background: rgb(0, 0, 0);
+    color: rgb(254, 253, 253);
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    font-family: alegreya sans;
+  }
+  
+    .selections {
+    margin-top: 300px;
+    font-family:alegreya sans;
+    display:block ;
+    font-size: 16px;
+
+    display: flex;
+   
+  } 
+
+    .names {
+        display: flex;
+        align-content: space-between;
+        gap: 10px;
+        gap: 10px 20px;
+        row-gap: 10px;
+        column-gap: 20px;
+        position:relative;
+        width: 50%;
+        height: 50%;
+        flex-direction: row-reverse;
+
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 50%;
+        
+    }
+    a {
+    display:inline-block;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto 100px;
+    
+  }
+
+  .names .folder {
+    position:relative;
+    width: 150px;
+    height: 150px;
+    background: aliceblue;
+    opacity:0.9;
+    transition: transform 0.5s linear;
+  }
+
+  .names p:hover span {
+    pointer-events: none;
+  }
+  
+.names p span {
+        transform-origin: top left;
+        transition: transform 0.25s linear;
+}
+
+.names p:hover  {
+    transform: rotate3d(1, 0, 0, 75deg);
+  }
+  
+  .names p span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    padding: 21px 12px;
+    border-bottom: 2px solid seagreen;
+    font-size: 0.5em;
+  }
+  #Nicolas {
+    position:relative;
+    width: 100%;
+    height: 600px;
+    background: ;
+    border: 0px solid white;
+    margin-left: 60px;
+  }
+  
+
+    
+
+  #Nicolas {
+    position: relative
+    top: 200px;
+    left: 180px;
+    width: 40px;
+    height: 40px;
+    background: black;
+    border-radius: 50%;
+  }
+  
+  /* hover state for #Nicolas */
+  #Nicolas p:hover {
+    background: green;
+  }
+  
+
+
+.front{
+    background-color: white;
+}
+}
+
+inkbody.png {
+position: relative;
+
+
+}
+
+.silhouette{
+  width: 900px; 
+  height: 1300px;
+  margin-left: 450px;
+}
