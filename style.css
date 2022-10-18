@@ -70,14 +70,26 @@ html {
     
   }
 
-  .names .folder {
-    display: flex;
-   flex-direction: column;
-    width: 150px;
-    height: 150px;
+  /* .names .folder {
+
+    width: 50px;
+    height: 50px;
     background: aliceblue;
     opacity:0.9;
     transition: transform 0.5s linear;
+  } */
+
+  .folder a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: green;
+  }
+
+  .folder img {
+    width: 200px;
+  height: 150px;
+}
   }
 
   .names p:hover span {
@@ -93,7 +105,7 @@ html {
     transform: rotate3d(1, 0, 0, 75deg);
   }
   
-  .names p span {
+  /* .names p span {
     display: block;
     position: absolute;
     top: 0;
@@ -103,14 +115,12 @@ html {
     z-index: 1;
     padding: 21px 12px;
     border-bottom: 2px solid seagreen;
-    font-size: 0.5em;
+    font-size: 0.5em; */
   }
   #Nicolas {
     position:relative;
     width: 100%;
     height: 600px;
-    background: ;
-    border: 0px solid white;
     margin-left: 60px;
   }
   
@@ -121,12 +131,11 @@ html {
     position: relative
    top: 800px;
     bottom: 1000px; 
-    left: 500px;
-    right: 500px;
+    left: 400px;
+    right: 600px;
     width: 40px;
     height: 40px;
-    background: black;
-    border-radius: 50%;
+  
   }
   
 
@@ -138,19 +147,31 @@ html {
     right: 500px;
     width: 40px;
     height: 40px;
-    background: black;
+    /* background: black; */
   
   } 
 
-  #Kate {
+  #Ava {
     position: relative
-   top: 300px;
+    top: 300px;
     bottom: 1350px; 
-    left: 350px;
+    left: 250px;
     right: 500px;
     width: 40px;
     height: 40px;
-    background: black;
+    /* background: black; */
+
+  } 
+
+  #Poli {
+    position: relative
+    top: 300px;
+    bottom: 1000px; 
+    left: 300px;
+    right: 500px;
+    width: 40px;
+    height: 40px;
+    /* background: black; */
 
   } 
 
@@ -171,12 +192,30 @@ html {
 
 inkbody.png {
 position: relative;
-
+flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 50%;
 
 }
 
-.silhouette{
+/* .silhouette{
   width: 900px; 
   height: 1300px;
   margin-left: 450px;
+} */
+
+.silhouette{
+  width: 50%; 
+  height: 50%;
+  margin-left: 450px;
+}
+
+.traced{
+  width: 90px;
+  height: 150px;
+  align-items: center;
+  top: 800px;
+    bottom: 1000px; 
+    left: 500px;
+    right: 500px;
 }
